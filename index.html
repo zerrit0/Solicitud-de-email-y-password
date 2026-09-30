@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Email y password</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <label for="email">Email</label>
+  <input type="text" id="email" name="email">
+  <br><br>
+
+  <label for="password">Password</label>
+  <input type="password" id="password" name="password">
+  <br><br>
+
+  <button onclick="verificar()">Verificar</button>
+
+  <p id="resultado"></p>
+
+  <button id="aceptar" onclick="aceptarTerminos()">Aceptar términos y condiciones</button>
+  <button id="continuar" onclick="continuar()" disabled>Continuar</button>
+
+  <p id="mensaje"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
